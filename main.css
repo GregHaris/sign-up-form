@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Norse-Bold.otf';
+  src: url(fonts/Norse-Bold.otf);
+}
+
+:root {
+  --form-container-bg:  #d8d8d8;
+  --sign-up-font-family: "montserrat", "roboto",Arial, Helvetica, sans-serif;
+  --logo-font-family: 'Norse-Bold.otf';
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#page-container {
+  display: flex;
+  max-width: 70em;
+  min-width: 650px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#side-bar {
+  width: 35%;
+  height: 100vh;
+  background-image: url("img/shaain-ibrahim-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+#logo {
+  font-family: var(--logo-font-family);
+  font-size: 3rem;
+  margin-top: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#logo img {
+  width: 100px;
+}
+
+.photo-credit {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  padding: 0.3rem;
+  font-size: 0.6rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+#form-container {
+  width: 65%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--form-container-bg);
+  padding-left: 40px;
+}
+
+.form-text {
+  font-family: var(--sign-up-font-family);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
