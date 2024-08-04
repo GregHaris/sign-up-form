@@ -22,11 +22,56 @@
       </div>
     </div>
 
-      <div id="form-container">
+    <div id="main">
+      <div class="form-text">
+        <h1>Hey, welcome to The Odin Project vacation site!</h1>
+        <p>We Know that this program has been both exiting and very intensive.</p>
+        <p>This is an opportunity to cool off and also meet your fellow TOP learners.</p>
+        <p>You know you need this amazing and exciting adventure. Sign up <em>now</em> to reserve your spot.</p>
+        <p>You <em>know</em> you want to :)</p>
+      </div>
 
+      <div id="form-container">
+        <h3 id="form-heading">Let's do this!</h3>
+        <form action="" method="post" id="signup-form">
+          <section id="signu-up-information">
+            <div>
+              <label for="fname">FIRST NAME: <span aria-label="required">*</span> <input type="text" name="fname"
+                  id="fname" required></label>
+            </div>
+            <div>
+              <label for="lname">LAST NAME: <span aria-label="required">*</span> <input type="text" name="lname"
+                  id="lname" required></label>
+            </div>
+            <div>
+              <label for="email">EMAIL: <span aria-label="required">*</span> <input type="email" name="email" id="email"
+                  placeholder="joe@example.com" required></label>
+            </div>
+            <div>
+              <label for="tel">PHONE NUMBER: <input type="text" name="phone-number" id="tel"
+                  inputmode="numeric"></label>
+            </div>
+            <div>
+              <label for="password">PASSWORD: <span aria-label="required">*</span> <input type="password"
+                  name="password" id="password" required></label>
+            </div>
+            <div>
+              <label for="confirm-password">CONFIRM PASSWORD: <span aria-label="required">*</span> <input
+                  type="password" name="confirm-password" id="confirm-password" required></label>
+            </div>
+          </section>
+          <section id="singup-or-login">
+            <div class="submit">
+              <button type="submit" class="submit-btn">Create Account</button>
+            </div>
+            <div class="login">
+              <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+          </section>
+        </form>
       </div>
     </div>
-
+  </div>
 </body>
 
 </html>
